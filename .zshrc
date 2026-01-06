@@ -35,6 +35,10 @@ alias cat='bat --paging=never'
 alias ..='cd ..'
 alias ...='cd ../..'
 
+# Personal touches
+alias ag="antigravity"
+alias reload="source ~/.zshrc"
+
 # --- FUZZY FUNCTIONS ---
 # Fast directory jump with fzf + zoxide
 unalias zi 2>/dev/null
