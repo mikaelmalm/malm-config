@@ -24,8 +24,8 @@ alias gp='git push'
 alias gl='git log --oneline --graph --all'
 alias gd='git diff'
 alias gco='git checkout'
-alias ggpush='git push origin "$(git_current_branch)"'
-alias ggpull='git pull origin "$(git_current_branch)"'
+alias ggpush='git push origin'
+alias ggpull='git pull origin'
 
 # Navigation & UI
 alias ls='eza --icons --group-directories-first'
