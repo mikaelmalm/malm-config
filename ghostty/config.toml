@@ -1,0 +1,18 @@
+# Core
+font-family = "JetBrainsMono Nerd Font"
+font-size = 14
+theme = catppuccin-mocha
+
+# Mac Specifics
+macos-titlebar-style = transparent
+macos-option-as-alt = true
+
+# Window
+window-padding-x = 10
+window-padding-y = 10
+background-opacity = 0.95
+blur = true
+
+# Shell integration
+shell-integration = zsh
+command = /bin/zsh

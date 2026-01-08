@@ -2,8 +2,9 @@
 export EDITOR='nano' # Change to nvim if you aren't a coward
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# --- PLUGINS (Manual & Fast) ---
+# --- PLUGINS (Manual & Fast) ---q
 # We use the system-installed fzf and zoxide
+
 source <(fzf --zsh)
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
